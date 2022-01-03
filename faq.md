@@ -5,6 +5,17 @@ This is a list of common questions about Impermax, and answers.
 If you have any other question you'd like to see here, feel free to ping me on the Impermax Discord: @PhiMarHal#9107 
 
 <br>
+<h3>Once I leverage my LP tokens, in what form do I get the rewards?</h3>
+
+You will get a mix of: Trading Fees, External Rewards, and IMX Farming.
+
+Trading Fees are obtained with every swap. Just like holding a normal LP, only leveraged. They autocompound to your equity.
+
+External Rewards are incentives like SUSHI, SPELL, gOHM, MAGIC, SOLAR... Impermax stakes the LPs in the appropriate farms for you, to then claim those rewards and swap them for even more LPs. External Rewards also autocompound to your equity.
+
+IMX Farming accrues in the "Farming" tab. These IMX rewards must be claimed manually.
+
+<br>
 <h3>When leveraging, do IMX rewards compound?</h3>
 
 IMX rewards are claimed manually at your convenience. They don't compound.
