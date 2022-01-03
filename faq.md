@@ -12,7 +12,21 @@ Impermax is available on Ethereum, Polygon, Arbitrum, Avalanche and Moonriver.
 <br>
 <h3>Where should I get the latest info on Impermax?</h3>
 
+Check the official docs: https://docs.impermax.finance/
+
 The Discord server is fairly active, and the #resources channel in particular will have most of the links you might need.
+
+<br>
+<h3>Where can I watch protocol metrics?</h3>
+
+Beyond the main website, there is a Google Docs with protocol profits: https://docs.google.com/spreadsheets/d/132kv9HOxty2IY7gt_0_hzVOqw_Bd-s_e5AN7ansD2wk/edit#gid=0
+
+<br>
+<h3>What is the token distribution?</h3>
+
+You can check the official blogpost to see the original tokenomics: https://impermax.medium.com/impermax-tokenomics-34cb3dd66474
+
+Additionally, here's a Dune dashboard with current top holders: https://dune.xyz/phimarhal/Impermax-Stats
 
 <br>
 <h3>Where can I trade IMX?</h3>
@@ -25,6 +39,13 @@ You can trade IMX on decentralized exchanges.
 - Swapr pair (Arbitrum): https://dxstats.eth.link/#/pair/0x9da6ce1f3e25843e7a3fbd262fd8082b8f562923
 - Pangolin pair (Avalanche): https://info.pangolin.exchange/#/pair/0xa34862a7de51a0e1aee6d3912c3767594390586d
 - Solarbeam pair (Moonriver): https://analytics.solarbeam.io/pairs/0x6ed3bc66dfcc5ac05daec840a75836da935fac97
+
+<br>
+<h3>How do I bridge IMX between chains?</h3>
+
+- official bridges for Arbitrum (https://bridge.arbitrum.io) and Polygon (https://wallet.polygon.technology/bridge/)
+- WanChain (https://bridge.wanchain.org/#/) for Avalanche and Moonriver
+- cBridge (https://cbridge.celer.network/#/transfer) also supports IMX transfers between Arbitrum, Ethereum, Polygon and Avalanche
 
 <br>
 <h3>What is the recommended wallet for Impermax?</h3>
