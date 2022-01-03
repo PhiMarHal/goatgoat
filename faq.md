@@ -80,4 +80,12 @@ Rates are driven by supply and demand. Too many borrowers, too few lenders may r
 
 The price variation between assets can also play a role. If a pair has high farming rewards, but the market value of these rewards lowers, so will APR.
 
+<br>
+<h3>Should I deleverage immediately when the APR is negative?</h3>
+
+It depends of your strategy and market outlook. 
+
+You could decide to wait for other borrowers to deleverage before you.
+
+If Supply APR is high, it may attract lenders. Restoring your own leverage APR.
 
