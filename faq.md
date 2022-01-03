@@ -58,9 +58,18 @@ Holders could vote on new pools and allocations, and be rewarded for their votes
 
 
 <br>
+<h3>How do buybacks work?</h3>
+
+A share of protocol profits is used to buy back IMX on the open market. Buybacks are done manually by the dev team. They happen roughly on a weekly basis.
+
+<br>
 <h3>How does staking work?</h3>
 
-Protocol profits
+Buyback proceeds are sent to the staking distributor. The staking distributor then sends IMX to the staking contract, over a period of 30 days.
+
+As the staking contract receives IMX, it naturally increases the value of xIMX compared to IMX. 
+
+This also means your xIMX tokens on any other chain benefit from staking rewards on Ethereum mainnet.
 
 <br>
 <h3>Once I leverage my LP tokens, in what form do I get the rewards?</h3>
