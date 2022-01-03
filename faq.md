@@ -19,12 +19,12 @@ The Discord server is fairly active, and the #resources channel in particular wi
 
 You can trade IMX on decentralized exchanges.
 
-Uniswap pair (Ethereum): https://v2.info.uniswap.org/pair/0xa00d47b4b304792eb07b09233467b690db847c91
-QuickSwap pair (Polygon): https://info.quickswap.exchange/#/pair/0x5f819f510ca9b1469e6a3ffe4ecd7f0c1126f8f5
-SushiSwap pair (Arbitrum): https://analytics-arbitrum.sushi.com/pairs/0xb7e5e74b52b9ada1042594cfd8abbdee506cc6c5
-Swapr pair (Arbitrum): https://dxstats.eth.link/#/pair/0x9da6ce1f3e25843e7a3fbd262fd8082b8f562923
-Pangolin pair (Avalanche): https://info.pangolin.exchange/#/pair/0xa34862a7de51a0e1aee6d3912c3767594390586d
-Solarbeam pair (Moonriver): https://analytics.solarbeam.io/pairs/0x6ed3bc66dfcc5ac05daec840a75836da935fac97
+- Uniswap pair (Ethereum): https://v2.info.uniswap.org/pair/0xa00d47b4b304792eb07b09233467b690db847c91
+- QuickSwap pair (Polygon): https://info.quickswap.exchange/#/pair/0x5f819f510ca9b1469e6a3ffe4ecd7f0c1126f8f5
+- SushiSwap pair (Arbitrum): https://analytics-arbitrum.sushi.com/pairs/0xb7e5e74b52b9ada1042594cfd8abbdee506cc6c5
+- Swapr pair (Arbitrum): https://dxstats.eth.link/#/pair/0x9da6ce1f3e25843e7a3fbd262fd8082b8f562923
+- Pangolin pair (Avalanche): https://info.pangolin.exchange/#/pair/0xa34862a7de51a0e1aee6d3912c3767594390586d
+- Solarbeam pair (Moonriver): https://analytics.solarbeam.io/pairs/0x6ed3bc66dfcc5ac05daec840a75836da935fac97
 
 <br>
 <h3>What is the recommended wallet for Impermax?</h3>
