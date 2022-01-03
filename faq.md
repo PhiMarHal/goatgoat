@@ -2,7 +2,7 @@
 
 This is a list of common questions about Impermax, and answers.
 
-If you have any other question you'd like to see here, feel free to ping me on the Impermax Discord: @PhiMarHal#9107 
+If you wonder about anything else you'd like to see here, feel free to ping me on the Impermax Discord: @PhiMarHal#9107 
 
 <br>
 <h3>Where can I use Impermax?</h3>
@@ -54,6 +54,18 @@ Open any pair using the asset you want to lend, and click on the "Lending" tab.
 You get rewards in the same token you lend. These rewards are added to your supplied balance (they autocompound).
 
 <br>
+<h3>How often do I get rewards for lending?</h3>
+
+Interest adds up with every block. However, your balance won't update dynamically. A refresh every few minutes should show you your increased balance.
+
+<br>
+<h3>Can I see my lending gains anywhere?</h3>
+
+Not directly through the website yet.
+
+Instead, you can track your original deposit from a block explorer, then subtract it to your current supplied balance.
+
+<br>
 <h3>Can I lose funds by lending?</h3>
 
 Only in the rare scenario bots would not liquidate an undercollateralized loan in time. This has never happened in the entire history of Impermax.
@@ -71,6 +83,13 @@ Make sure you're connected with the right wallet, if you use several ones.
 Try a hard refresh: CTRL-F5.
 
 If nothing shows up, it may be an issue with the subgraph. Check in on Discord to see if others have the same problem.
+
+<br>
+<h3>What is the Bounty?</h3>
+
+The Bounty reinvests external rewards into more of the underlying LPs. It compounds collateral for all LPs deposited on Impermax.
+
+Whoever calls the Bounty gets 2% of those farming rewards for their work. In practice, bots tend to claim the Bounty as soon as it's economically viable. You can ignore the Bounty and treat it as an autocompounder.
 
 <br>
 <h3>How can I get involved with IMX staking?</h3>
