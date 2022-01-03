@@ -5,6 +5,64 @@ This is a list of common questions about Impermax, and answers.
 If you have any other question you'd like to see here, feel free to ping me on the Impermax Discord: @PhiMarHal#9107 
 
 <br>
+<h3>What is the recommended wallet for Impermax?</h3>
+
+Currently, Metamask on desktop has the best support.
+
+<br>
+<h3>[Mobile Wallet] I can't withdraw, the wheel keeps spinning and nothing happens</h3>
+
+This is a known bug with some mobile wallets. Your best bet is to import your mobile wallet seed in Metamask.
+
+<br>
+<h3>What rewards do I get if I lend?</h3>
+
+You get rewards in the same token you lend. These rewards are added to your supplied balance (they autocompound).
+
+<br>
+<h3>Can I lose funds by lending?</h3>
+
+Only in the rare scenario bots would not liquidate an undercollateralized loan in time. This has never happened in the entire history of Impermax.
+
+<br>
+<h3>How long has Impermax been around?</h3>
+
+The ancient scrolls claim it has been around for longer than mankind itself. Etherscan says March 2021.
+
+<br>
+<h3>My wallet is connected, but I can't see my funds anymore!</h3>
+
+Make sure you're connected with the right wallet, if you use several ones.
+
+Try a hard refresh: CTRL-F5.
+
+If nothing shows up, it may be an issue with the subgraph. Check in on Discord to see if others have the same problem.
+
+<br>
+<h3>How can I get involved with IMX staking?</h3>
+
+The staking contract is on Ethereum mainnet. It lets you deposit IMX and get xIMX in return.
+
+If Ethereum fees are too high, you can buy xIMX on Polygon through the Uniswap v3 pair: https://info.uniswap.org/#/polygon/pools/0xcc64b5d5eecd61a237d74e70dbf26e2cb1667d76
+
+<br>
+<h3>What's the point of the IMX token?</h3>
+
+IMX can be staked for a share of protocol profits (currently, 100% of protocol profits are sent to stakers).
+
+All holders of IMX also passively benefit from protocol buybacks.
+
+In the future, IMX will serve as a governance token for the protocol.
+
+Holders could vote on new pools and allocations, similar to Curve and "Liquidity Drawing Rights": https://tokenomicsexplained.com/evolutions-in-liquidity-sourcing/#Liquidity%20Direction%20Rights
+
+
+<br>
+<h3>How does staking work?</h3>
+
+Protocol profits
+
+<br>
 <h3>Once I leverage my LP tokens, in what form do I get the rewards?</h3>
 
 You will get a mix of: Trading Fees, External Rewards, and IMX Farming.
