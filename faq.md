@@ -10,6 +10,11 @@ If you have any other question you'd like to see here, feel free to ping me on t
 Currently, Metamask on desktop has the best support.
 
 <br>
+<h3>How do I lend?</h3>
+
+Open any pair using the asset you want to lend, and click on the "Lending" tab.
+
+<br>
 <h3>[Mobile Wallet] I can't withdraw, the wheel keeps spinning and nothing happens</h3>
 
 This is a known bug with some mobile wallets. Your best bet is to import your mobile wallet seed in Metamask.
