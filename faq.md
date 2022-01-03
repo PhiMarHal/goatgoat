@@ -312,3 +312,14 @@ Sometimes, AMMs migrate their farming programs. This requires a migration from I
 
 Deprecated pairs remain functional. However, you may not get great rewards using them.
 
+<br>
+<h3>I joined the Discord. Why do you all have goats in your names?</h3>
+
+The Ibex is the spirit animal of Impermax. In an endless quest for salt, he climbs daring heights and defies gravity itself. Which is not unlike leveraging LP tokens.
+
+<br>
+<h3>What does (🐐,🐐) mean?</h3>
+
+It represents the synergy between (Leveragers) and (Lenders). With Impermax, both groups work together to harvest farming rewards, each according to their risk profile.
+
+Or maybe we just like goats.
