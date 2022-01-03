@@ -58,3 +58,26 @@ There are no fees on deleveraging anywhere.
 <h3>Can I use Impermax for my LPs without leveraging?</h3>
 
 Yes! If you deposit LPs without leveraging, Impermax acts as an autocompounder.
+
+<br>
+<h3>Why is my LP equity going down, even though the APR is positive?</h3>
+
+There are several factors at play.
+
+It may be that your APR is mostly in IMX rewards. As IMX rewards must be manually claimed, they don't compound to your equity.
+
+It may be that you're suffering from impermanent loss, if the two assets of your pair are moving from each other. Leverage multiplies impermanent loss.
+
+<br>
+<h3>What does it mean when the APR is negative?</h3>
+
+When the APR is negative, people who are currently in the pair at that level of leverage are losing money.
+
+<br>
+<h3>*Why* is the APR negative?</h3>
+
+Rates are driven by supply and demand. Too many borrowers, too few lenders may result in negative APR.
+
+The price variation between assets can also play a role. If a pair has high farming rewards, but the market value of these rewards lowers, so will APR.
+
+
