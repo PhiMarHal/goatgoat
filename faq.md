@@ -237,4 +237,4 @@ If you have several positions, clicking on the token, then on the contract addre
 <br>
 <h3>Can I transfer my leveraged positions to another address?</h3>
 
-Unfortunately, no. For the time being, leveraged positions are bound to the address that opened them.
+Unfortunately, no. Leveraged positions are bound to the address that opened them.
