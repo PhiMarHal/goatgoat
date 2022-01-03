@@ -46,11 +46,11 @@ Additionally, a large bug bounty program (or "unofficial fork") has been running
 <br>
 <h3>But really now, *how* safe is Impermax? I've seen yet another DeFi hack just last week!</h3>
 
-Many protocols are forked rather than built, with people who have little understanding of the code they use.
+Many protocols are forked rather than built, with little understanding of the code.
 
-Many other protocols have questionable design choices, playing fast and loose with security.
+Some other protocols have questionable design choices, playing fast and loose with security.
 
-Impermax was built with security in mind. The protocol is permissionless, in that there is no admin access to user funds.
+Impermax was built with security in mind. There is no admin access to user funds.
 
 Pairs are strictly isolated, so the collapse of any one pool would not cause contagion to the entire protocol.
 
