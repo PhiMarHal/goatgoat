@@ -5,9 +5,43 @@ This is a list of common questions about Impermax, and answers.
 If you have any other question you'd like to see here, feel free to ping me on the Impermax Discord: @PhiMarHal#9107 
 
 <br>
+<h3>Where can I use Impermax?</h3>
+
+Impermax is available on Ethereum, Polygon, Arbitrum, Avalanche and Moonriver.
+
+<br>
+<h3>Where should I get the latest info on Impermax?</h3>
+
+The Discord server is fairly active, and the #resources channel in particular will have most of the links you might need.
+
+<br>
+<h3>Where can I trade IMX?</h3>
+
+You can trade IMX on decentralized exchanges.
+
+Uniswap pair (Ethereum): https://v2.info.uniswap.org/pair/0xa00d47b4b304792eb07b09233467b690db847c91
+QuickSwap pair (Polygon): https://info.quickswap.exchange/#/pair/0x5f819f510ca9b1469e6a3ffe4ecd7f0c1126f8f5
+SushiSwap pair (Arbitrum): https://analytics-arbitrum.sushi.com/pairs/0xb7e5e74b52b9ada1042594cfd8abbdee506cc6c5
+Swapr pair (Arbitrum): https://dxstats.eth.link/#/pair/0x9da6ce1f3e25843e7a3fbd262fd8082b8f562923
+Pangolin pair (Avalanche): https://info.pangolin.exchange/#/pair/0xa34862a7de51a0e1aee6d3912c3767594390586d
+Solarbeam pair (Moonriver): https://analytics.solarbeam.io/pairs/0x6ed3bc66dfcc5ac05daec840a75836da935fac97
+
+<br>
 <h3>What is the recommended wallet for Impermax?</h3>
 
 Currently, Metamask on desktop has the best support.
+
+<br>
+<h3>How long has Impermax been around?</h3>
+
+The ancient scrolls claim it has been around for longer than mankind itself. Etherscan says March 2021.
+
+<br>
+<h3>How safe is Impermax?</h3>
+
+The protocol has secured more than $40M of TVL for 9 months on 5 chains with no bugs or hacks.
+
+Additionally, a large bug bounty program (or "unofficial fork") has been running on the Fantom blockchain since August.
 
 <br>
 <h3>How do I lend?</h3>
@@ -166,16 +200,16 @@ You could decide to wait for other borrowers to deleverage before you.
 If Supply APR is high, it may attract lenders. Restoring your own leverage APR.
 
 <br>
-<h3>How long has Impermax been around?</h3>
+<h3>I'm trying to deleverage, but only one of my assets was fully deleveraged. What should I do?</h3>
 
-The ancient scrolls claim it has been around for longer than mankind itself. Etherscan says March 2021.
+It's likely your debt has become unbalanced due to impermanent loss. You need to repay manually the debt for that asset (assetA), in order to be able to withdraw your LP in full.
+ 
+To do that, you could borrow the other asset (assetB). Then swap assetB for assetA on a decentralized exchange. And repay the assetA debt.
 
 <br>
-<h3>How safe is Impermax?</h3>
+<h3>I deleveraged, but I'm not seeing my LP anymore!</h3>
 
-The protocol has secured more than $40M of TVL for 9 months on 5 chains with no bugs or hacks.
-
-Additionally, a large bug bounty program (or "unofficial fork") has been running on the Fantom blockchain since August.
+If you deleverage in full, Impermax breaks your LP into their original tokens. You should see them in your wallet.
 
 <br>
 <h3>If I get liquidated, can my account go negative?</h3>
@@ -185,3 +219,22 @@ Liquidation takes 4% per degree of leverage on volatile pairs. 1% on stable/stab
 For example, if you were leveraged 6x at the moment of liquidation, you would lose 4% * (6 - 1) = 20% of your capital.
 
 Note that as liquidation generally happens because your debt grows and your liquidation increases, your leverage at the moment of liquidation is likely to be higher than your initial leverage.
+
+<br>
+<h3>I withdrew my assets, but there's still something left.</h3>
+
+This is a known issue: the protocol leaves dust behind. The amount should be too small to matter (but it's admittedly annoying!).
+
+<br>
+<h3>Can I transfer my supplied positions to another address?</h3>
+
+Yes. Supplied positions are ERC20 tokens.
+
+You might be able to find your supplied positions by looking at your address in a block explorer. Supplied positions are all named "imxB". 
+
+If you have several positions, clicking on the token, then on the contract address, then on the "tokens" for that contract address, might let you know which imxB corresponds to your position.
+
+<br>
+<h3>Can I transfer my leveraged positions to another address?</h3>
+
+Unfortunately, no. For the time being, leveraged positions are bound to the address that opened them.
