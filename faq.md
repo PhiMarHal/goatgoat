@@ -129,6 +129,11 @@ The Bounty reinvests external rewards into more of the underlying LPs. It compou
 Whoever calls the Bounty gets 2% of those farming rewards for their work. In practice, bots tend to claim the Bounty as soon as it's economically viable. You can ignore the Bounty and treat it as an autocompounder.
 
 <br>
+<h3>Is there any way to check when the last reinvest happened?</h3>
+
+Go to the Bounty page, and tap on the "Reinvest" button for the pair you want to check. Without confirming the transaction, click on the destination address in Metamask to open it in a block explorer.
+
+<br>
 <h3>How can I get involved with IMX staking?</h3>
 
 The staking contract is on Ethereum mainnet. It lets you deposit IMX and get xIMX in return.
