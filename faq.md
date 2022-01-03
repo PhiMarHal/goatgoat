@@ -167,6 +167,11 @@ As the staking contract receives IMX, it naturally increases the value of xIMX c
 This also means your xIMX tokens on any other chain benefit from staking rewards on Ethereum mainnet.
 
 <br>
+<h3>What else is done with protocol profits beyond buybacks?</h3>
+
+Profits might be used to grow a reserve of protocol-owned liquidity. Watch the POL address here: https://debank.com/profile/0x43ab29158297dcb45d9b4f8d07450a5d5271e442
+
+<br>
 <h3>Once I leverage my LP tokens, in what form do I get the rewards?</h3>
 
 You will get a mix of: Trading Fees, External Rewards, and IMX Farming.
