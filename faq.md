@@ -15,11 +15,6 @@ Currently, Metamask on desktop has the best support.
 Open any pair using the asset you want to lend, and click on the "Lending" tab.
 
 <br>
-<h3>[Mobile Wallet] I can't withdraw, the wheel keeps spinning and nothing happens</h3>
-
-This is a known bug with some mobile wallets. Your best bet is to import your mobile wallet seed in Metamask.
-
-<br>
 <h3>What rewards do I get if I lend?</h3>
 
 You get rewards in the same token you lend. These rewards are added to your supplied balance (they autocompound).
@@ -30,9 +25,9 @@ You get rewards in the same token you lend. These rewards are added to your supp
 Only in the rare scenario bots would not liquidate an undercollateralized loan in time. This has never happened in the entire history of Impermax.
 
 <br>
-<h3>How long has Impermax been around?</h3>
+<h3>[Mobile Wallet] I can't withdraw, the wheel keeps spinning and nothing happens</h3>
 
-The ancient scrolls claim it has been around for longer than mankind itself. Etherscan says March 2021.
+This is a known bug with some mobile wallets. Your best bet is to import your mobile wallet seed in Metamask.
 
 <br>
 <h3>My wallet is connected, but I can't see my funds anymore!</h3>
@@ -170,3 +165,23 @@ You could decide to wait for other borrowers to deleverage before you.
 
 If Supply APR is high, it may attract lenders. Restoring your own leverage APR.
 
+<br>
+<h3>How long has Impermax been around?</h3>
+
+The ancient scrolls claim it has been around for longer than mankind itself. Etherscan says March 2021.
+
+<br>
+<h3>How safe is Impermax?</h3>
+
+The protocol has secured more than $40M of TVL for 9 months on 5 chains with no bugs or hacks.
+
+Additionally, a large bug bounty program (or "unofficial fork") has been running on the Fantom blockchain since August.
+
+<br>
+<h3>If I get liquidated, can my account go negative?</h3>
+
+Liquidation takes 4% per degree of leverage on volatile pairs. 1% on stable/stable pairs.
+
+For example, if you were leveraged 6x at the moment of liquidation, you would lose 4% * (6 - 1) = 20% of your capital.
+
+Note that as liquidation generally happens because your debt grows and your liquidation increases, your leverage at the moment of liquidation is likely to be higher than your initial leverage.
