@@ -54,7 +54,7 @@ All holders of IMX also passively benefit from protocol buybacks.
 
 In the future, IMX will serve as a governance token for the protocol.
 
-Holders could vote on new pools and allocations, similar to Curve and "Liquidity Drawing Rights": https://tokenomicsexplained.com/evolutions-in-liquidity-sourcing/#Liquidity%20Direction%20Rights
+Holders could vote on new pools and allocations, and be rewarded for their votes, similar to Curve and "Liquidity Direction Rights": https://tokenomicsexplained.com/evolutions-in-liquidity-sourcing
 
 
 <br>
