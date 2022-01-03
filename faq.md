@@ -103,6 +103,11 @@ Instead, you can track your original deposit from a block explorer, then subtrac
 Only in the rare scenario bots would not liquidate an undercollateralized loan in time. This has never happened in the entire history of Impermax.
 
 <br>
+<h3>When withdrawing from my supply position, I'm seeing contract errors in block explorers. What's going on?</h3>
+
+Block explorers incorrectly report revert errors inside Try/Catch statements. The contract is working as intended, and your tokens should be in your wallet.
+
+<br>
 <h3>[Mobile Wallet] I can't withdraw, the wheel keeps spinning and nothing happens</h3>
 
 This is a known bug with some mobile wallets. Your best bet is to import your mobile wallet seed in Metamask.
