@@ -44,6 +44,17 @@ The protocol has secured more than $40M of TVL for 9 months on 5 chains with no 
 Additionally, a large bug bounty program (or "unofficial fork") has been running on the Fantom blockchain since August.
 
 <br>
+<h3>But really now, *how* safe is Impermax? I've seen yet another DeFi hack just last week!</h3>
+
+Many protocols are forked rather than built, with people who have little understanding of the code they use.
+
+Many other protocols have questionable design choices, playing fast and loose with security.
+
+Impermax was built with security in mind. The protocol is permissionless, in that there is no admin access to user funds.
+
+Pairs are strictly isolated, so the collapse of any one pool would not cause contagion to the entire protocol.
+
+<br>
 <h3>How do I lend?</h3>
 
 Open any pair using the asset you want to lend, and click on the "Lending" tab.
@@ -257,3 +268,21 @@ If you have several positions, clicking on the token, then on the contract addre
 <h3>Can I transfer my leveraged positions to another address?</h3>
 
 Unfortunately, no. Leveraged positions are bound to the address that opened them.
+
+<br>
+<h3>I can't deposit/withdraw/leverage/deleverage my Sushi pair!</h3>
+
+The Sushi team is so busy having fancy lobster dinners they sometimes forget to refill their reward contracts. When this happens, LPs are stuck. Check back in a few hours.
+
+<br>
+<h3>I can't see my pair anymore on the Markets page.</h3>
+
+This pair may have been deprecated. You should be able to access it from the Dashboard still. Alternatively, tick "Show deprecated pairs" on the Markets page.
+
+<br>
+<h3>What does it mean when a pair is "deprecated"?</h3>
+
+Sometimes, AMMs migrate their farming programs. This requires a migration from Impermax as well.
+
+Deprecated pairs remain functional. However, you may not get great rewards using them.
+
