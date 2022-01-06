@@ -261,7 +261,14 @@ The price variation between assets can also play a role. If a pair has high farm
 
 Your own leverage would raise the utilisation rate, which would increase the borrow APR.
 
+This is doubly true if your leveraged position would bring the utilisation rate above the Kink Rate.
+
 The same amount of rewards is also divided between more participants, which leads to less rewards per capital.
+
+<br>
+<h3>What is the Kink Utilisation Rate?</h3>
+
+When utilisation rate for a pool goes past the Kink Rate (75% for most pools), the borrow APR increases significantly.
 
 <br>
 <h3>Should I deleverage immediately when the APR is negative?</h3>
