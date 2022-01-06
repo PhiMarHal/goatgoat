@@ -257,6 +257,13 @@ Rates are driven by supply and demand. Too many borrowers, too few lenders may r
 The price variation between assets can also play a role. If a pair has high farming rewards, but the market value of these rewards lowers, so will APR.
 
 <br>
+<h3>On the market page, I see positive APR for a pair. But when I try to leverage, the APR is negative. Why is that?</h3>
+
+Your own leverage would raise the utilisation rate, which would increase the borrow APR.
+
+The same amount of rewards is also divided between more participants, which leads to less rewards per capital.
+
+<br>
 <h3>Should I deleverage immediately when the APR is negative?</h3>
 
 It depends of your strategy and market outlook. 
