@@ -10,20 +10,18 @@ All you need for tools is:
 
 Here, we will assume you want to add a pair that has farming rewards.
 
-<br>
-0) Find the PID for the pair you want to add
-
+1) Find the PID for the pair you want to add.
 
 2) Deploy a StakedLPFactory, with the following arguments
 - _router: the router address for the target AMM
 - _masterChef: the rewards contract for the target AMM
 - _rewardsToken: the token address for the token distributed by the above rewards contract
 
-2) On the StakedLPFactory, use createStakedLPToken() with the PID of the pair from _masterChef
+3) On the StakedLPFactory, use createStakedLPToken() with the PID of the pair from _masterChef
 
 Once your transaction is confirmed, go to the event logs on Etherscan. You should see your newly created pair address at the bottom, as "stakedLPToken".
 
-3) Copy this new stakedLPToken address, and go to the Impermax Factory. Call, in order:
+4) Copy this new stakedLPToken address, and go to the Impermax Factory. Call, in order:
 - createBorrowable0()
 - createBorrowable1()
 - createCollateral()
