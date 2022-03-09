@@ -24,10 +24,20 @@ Type numbers in poolLength starting from 0, and you will get lpToken addresses.
 
 Follow these lpToken addresses to see if they correspond to the LP you want to add. Once you have the right address, you found your PID!
 
-5) Deploy a StakedLPFactory, with the following arguments
+2) Find the Impermax StakedLPFactory.
+
+To do that, look up the transactions of the address that deployed the Impermax Factory until you see a Create: StakedLPTokenFactory transaction.
+
+If Impermax doesn't support the farm yet, you'll want to copy this source code. Open Remix, create a new file called Factory.sol, and paste the source code there.
+
+Compile the contract (CTRL-S). Then go to the "deploy & run" tab. Select Injected Web3 in the ENVIRONMENT dropdown menu. Select StakedLPTokenFactory in the CONTRACT dropdown menu.
+
+In the "Deploy" tab, add the following arguments:
 - _router: the router address for the target AMM
 - _masterChef: the rewards contract for the target AMM
 - _rewardsToken: the token address for the token distributed by the above rewards contract
+
+Then press transact to deploy the factory!
 
 3) On the StakedLPFactory, use createStakedLPToken() with the PID of the pair from _masterChef
 
