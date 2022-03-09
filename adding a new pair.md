@@ -12,7 +12,19 @@ Here, we will assume you want to add a pair that has farming rewards.
 
 1) Find the PID for the pair you want to add.
 
-2) Deploy a StakedLPFactory, with the following arguments
+The PID (Pool-ID) can be found in the rewards distributor contract for the AMM you want to use. 
+
+You might find this address in their documentation. Failing that, stake some LP tokens yourself in their farm and follow your transactions on Etherscan.
+
+Once you've got the contract address for the rewards distributor, on Etherscan go to the "Read" tab and scroll down to "12. poolInfo" and "13. poolLength".
+
+poolLength is the current number of farms, minus 1 (PID starts at 0, and ends at poolLength -1).
+
+Type numbers in poolLength starting from 0, and you will get lpToken addresses.
+
+Follow these lpToken addresses to see if they correspond to the LP you want to add. Once you have the right address, you found your PID!
+
+5) Deploy a StakedLPFactory, with the following arguments
 - _router: the router address for the target AMM
 - _masterChef: the rewards contract for the target AMM
 - _rewardsToken: the token address for the token distributed by the above rewards contract
