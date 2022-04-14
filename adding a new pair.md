@@ -10,6 +10,8 @@ All you need for tools is:
 
 Here, we will assume you want to add a pair that has farming rewards.
 
+<h3>[MOONRIVER]</h3>
+
 1) Find the PID for the pair you want to add.
 
 The PID (Pool-ID) can be found in the rewards distributor contract for the AMM you want to use. 
@@ -58,4 +60,6 @@ https://{blockchain}.impermax.finance/lending-pool/{your0xhere}
 Replace {blockchain} with the appropriate deployment: avalanche, polygon, fantom...
 Replace {your0xhere} with the stakedLPToken address.
 
+<h3>[POLYGON - QUICKSWAP]</h3>
 
+Instead of a PID, QuickSwap deploys one new contract for each farming pair.
